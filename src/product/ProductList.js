@@ -58,7 +58,7 @@ class ProductList extends Component {
                 {
                     !this.state.isLoading && this.state.products.length === 0 ? (
                         <div className="no-polls-found">
-                            <span>No products Found.</span>
+                            <span>Seja bem vindo ao My Event!</span>
                         </div>    
                     ): null
                 }  

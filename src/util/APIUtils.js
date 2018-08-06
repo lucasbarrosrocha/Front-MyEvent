@@ -39,14 +39,6 @@ export function createProduct(productData) {
     });
 }
 
-export function castVote(voteData) {
-    return request({
-        url: API_BASE_URL + "/polls/" + voteData.pollId + "/votes",
-        method: 'POST',
-        body: JSON.stringify(voteData)
-    });
-}
-
 export function login(loginRequest) {
     return request({
         url: API_BASE_URL + "/auth/signin",

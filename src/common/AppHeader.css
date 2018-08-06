@@ -15,16 +15,19 @@
   
   .app-header {
     position: fixed;
+    background-color:#D3D3D3;
     width: 100%;
-    box-shadow: 0 2px 8px #f0f1f2;
+    box-shadow: 0 2px 8px rgb(143, 180, 216);
     z-index: 10;
     padding: 0;
   }
   
   .app-menu {
     float: right;
+    background-color:#D3D3D3;
+
   }
-  
+
   .app-menu > li {
     padding: 0 20px;
   }
@@ -35,6 +38,7 @@
   }
 
   .app-menu > li > a > i {
+    background-color:#D3D3D3;
     margin-right: 0 !important;
   }
 
@@ -63,6 +67,7 @@
   }
   
   .nav-icon {
+    background: #D3D3D3;
     font-size: 20px;
   }
 

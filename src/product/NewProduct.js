@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { createProduct } from '../util/APIUtils';
-import './NewPoll.css';  
+import './NewProduct.css';  
 import { Form, Input, Button, notification } from 'antd';
 const FormItem = Form.Item;
 const { TextArea } = Input
